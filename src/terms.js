@@ -39,9 +39,9 @@ if (navLinks.length > 0) {
 }
 
 // onClick Text
-const title = document.querySelectorAll('.page__privacy-title-nav');
-const text = document.querySelectorAll('.page__privacy-text');
-const arrow = document.querySelectorAll('.page__privacy-nav')
+const title = document.querySelectorAll('.page__terms-title-nav');
+const text = document.querySelectorAll('.page__terms-text');
+const arrow = document.querySelectorAll('.page__terms-nav')
 
 for (let i = 0; i < title.length; i++) {
   title[i].addEventListener('click', (e) => {
