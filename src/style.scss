@@ -1233,6 +1233,7 @@ li.nav__item:not(:last-child) {
   align-items: flex-start;
   flex-direction: column;
   padding-bottom: 5px;
+  padding-left: 20%;
 }
 
 .footer__wrapper-third {
@@ -2452,7 +2453,7 @@ li.nav__item:not(:last-child) {
   }
 
   .page__box {
-    width: 285px;
+    width: 90vw;
     height: 355px;
   }
 
@@ -2482,7 +2483,7 @@ li.nav__item:not(:last-child) {
   .box__consultant-conversation {
     font-size: 12px;
     line-height: 15px;
-    max-width: 184px;
+    max-width: 100vw;
     height: 54px;
     margin: 0;
   }
@@ -2502,7 +2503,7 @@ li.nav__item:not(:last-child) {
 
   .box-black-first {
     height: 53px;
-    width: 125px;
+    width: 45%;
     margin-left: 13px;
     font-size: 12px;
     font-weight: 400;
@@ -2511,7 +2512,7 @@ li.nav__item:not(:last-child) {
 
   .box-black-second {
     height: 53px;
-    width: 125px;
+    width: 45%;
     margin-right: 13px;
     font-size: 12px;
     font-weight: 400;
@@ -2525,7 +2526,7 @@ li.nav__item:not(:last-child) {
   .box-replay {
     padding-top: 20px;
     padding-left: 17px;
-    width: 200px;
+    width: 90%;
     height: 50px;
     font-size: 12px;
     font-weight: 400;
