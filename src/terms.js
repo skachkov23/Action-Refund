@@ -38,24 +38,14 @@ if (navLinks.length > 0) {
   }
 }
 
-//slider
-if (window.matchMedia("(max-width: 640px)").matches) {
+// onClick Text
+const title = document.querySelectorAll('.page__privacy-title-nav');
+const text = document.querySelectorAll('.page__privacy-text');
+const arrow = document.querySelectorAll('.page__privacy-nav')
 
-  let slideIndex = 1;
-  showSlides();
-  
-  function showSlides() {
-      const logos = document.getElementsByClassName('page__company-logo');
-      for (let i = 0; i < logos.length; i++) {
-          logos[i].classList.add('mobile__logo_hidden');
-      }
-      slideIndex++;
-      if (slideIndex > logos.length) {
-        slideIndex = 1
-      };
-      logos[slideIndex-1].classList.remove("mobile__logo_hidden");
-  
-      setTimeout(showSlides, 1500); 
-  }
-  
+for (let i = 0; i < title.length; i++) {
+  title[i].addEventListener('click', (e) => {
+    text[i].classList.toggle('hidden-text')
+    arrow[i].classList.toggle('round')
+  })
 }
