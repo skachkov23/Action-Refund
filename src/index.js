@@ -64,9 +64,6 @@ if (window.matchMedia("(max-width: 640px)").matches) {
 
 const ph = document.getElementById('phone')
     ph.addEventListener("keydown", (e) => {
-        if(e.key === "Backspace" || e.key === "Delete"){
-          return;
-        }
         if(e.target.value.length === 3) {
           ph.value = ph.value + "-";
         }
