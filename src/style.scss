@@ -1233,7 +1233,6 @@ li.nav__item:not(:last-child) {
   align-items: flex-start;
   flex-direction: column;
   padding-bottom: 5px;
-  padding-left: 20%;
 }
 
 .footer__wrapper-third {
@@ -2960,4 +2959,7 @@ li.nav__item:not(:last-child) {
     padding: 20px 0px;
   }
 
+  .second__phone-first {
+    padding-left: 20%;
+  }
 }

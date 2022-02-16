@@ -59,3 +59,19 @@ if (window.matchMedia("(max-width: 640px)").matches) {
   }
   
 }
+
+// phone -
+
+const ph = document.getElementById('phone')
+    ph.addEventListener("keydown", (e) => {
+        if(e.key === "Backspace" || e.key === "Delete"){
+          return;
+        }
+        if(e.target.value.length === 3) {
+          ph.value = ph.value + "-";
+        }
+        if(e.target.value.length === 7) {
+          ph.value = ph.value + "-";
+        }
+    })
+
