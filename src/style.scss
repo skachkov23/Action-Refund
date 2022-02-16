@@ -1,48 +1,48 @@
 @font-face {
   font-family: "Open Sans";
-  src: url(../fonts/OpenSans-Light.ttf);
+  src: url(./fonts/OpenSans-Light.ttf);
   font-weight: 300;
   font-display: swap;
 }
 
 @font-face {
   font-family: "Open Sans";
-  src: url(../fonts/OpenSans-Regular.ttf);
+  src: url(./fonts/OpenSans-Regular.ttf);
   font-weight: 400;
   font-display: swap;
 }
 
 @font-face {
   font-family: "Open Sans";
-  src: url(../fonts/OpenSans-SemiBold.ttf);
+  src: url(./fonts/OpenSans-SemiBold.ttf);
   font-weight: 600;
   font-display: swap;
 }
 
 @font-face {
   font-family: "Michroma";
-  src: url(../fonts/Michroma-Regular.ttf);
+  src: url(./fonts/Michroma-Regular.ttf);
   font-weight: 400;
   font-display: swap;
 }
 
 @font-face {
   font-family: "Montserrat";
-  src: url(../fonts/Montserrat-Regular.ttf);
+  src: url(./fonts/Montserrat-Regular.ttf);
   font-weight: 400;
   font-display: swap;
 }
 
 @font-face {
   font-family: "Monteserrat";
-  src: url(../fonts/Montserrat-SemiBold.ttf);
+  src: url(./fonts/Montserrat-SemiBold.ttf);
   font-weight: 700;
   font-display: swap;
 }
 
 @font-face {
   font-family: "NanumGothic";
-  src: url(../fonts/NanumGothic-Bold.ttf);
+  src: url(./fonts/NanumGothic-Bold.ttf);
   font-weight: 700;
   font-display: swap;
 }
@@ -217,7 +217,7 @@ li.nav__item:not(:last-child) {
 .page__wrapper {
   padding-bottom: 114px;
   background-color: #D9F7FD;
-  background-image: url(../images/bronzeStatueDesktop.png);
+  background-image: url(./images/bronzeStatueDesktop.png);
   background-repeat: no-repeat;
   background-position: right 20% bottom 0;
 }
@@ -361,7 +361,7 @@ li.nav__item:not(:last-child) {
 .page__review-wrapper {
   background: #F9F9F9;
   padding-bottom: 137px;
-  background-image: url(../images/reviewDesktop.png);
+  background-image: url(./images/reviewDesktop.png);
 }
 
 .page__review-test {
@@ -644,7 +644,7 @@ li.nav__item:not(:last-child) {
 }
 
 .page__money-recover-dollar-img {
-  background-image: url(../images/dollarDesktop.png);
+  background-image: url(./images/dollarDesktop.png);
   z-index: 100;
   height: 272px;
 }
@@ -745,7 +745,7 @@ li.nav__item:not(:last-child) {
 
 .page__how-to-get-money-img {
   margin-right: 28px;
-  background-image: url(../images/contractSignDesktop.png);
+  background-image: url(./images/contractSignDesktop.png);
   background-repeat: no-repeat;
   width: 741px;
   height: 745px;
@@ -1692,7 +1692,7 @@ li.nav__item:not(:last-child) {
 
   .page__wrapper {
     min-height: 730px;
-    background-image: url(../images/BronzeStatueTablet.png);
+    background-image: url(./images/BronzeStatueTablet.png);
     padding-top: 169px;
     padding-bottom: 304px;
   }
@@ -1738,7 +1738,7 @@ li.nav__item:not(:last-child) {
   }
 
   .page__review-wrapper {
-    background-image: url(../images/reviewTablet.png);
+    background-image: url(./images/reviewTablet.png);
   }
 
   .page__who-we-are-content {
@@ -1888,7 +1888,7 @@ li.nav__item:not(:last-child) {
   }
 
   .page__money-recover-dollar-img {
-    background-image: url(../images/dollarTablet.png);
+    background-image: url(./images/dollarTablet.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -1960,7 +1960,7 @@ li.nav__item:not(:last-child) {
   }
 
   .page__how-to-get-money-img {
-    background-image: url(../images/contractSignTablet.png);
+    background-image: url(./images/contractSignTablet.png);
     width: 100%;
     background-size: cover;
     height: 298px;
@@ -2376,7 +2376,7 @@ li.nav__item:not(:last-child) {
   }
 
   .page__wrapper {
-    background-image: url(../images/bronzeStatueMobile.png);
+    background-image: url(./images/bronzeStatueMobile.png);
     background-position: right 0 bottom 0;
     padding-bottom: 300px;
     padding-top: 0px;
@@ -2403,7 +2403,7 @@ li.nav__item:not(:last-child) {
   }
 
   .page__review-wrapper {
-    background-image: url(../images/reviewMobile.png);
+    background-image: url(./images/reviewMobile.png);
   }
 
   .page__what-we-do-wrapper {
@@ -2550,7 +2550,7 @@ li.nav__item:not(:last-child) {
   }
 
   .page__money-recover-dollar-img {
-    background-image: url(../images/dollarMobile.png);
+    background-image: url(./images/dollarMobile.png);
     z-index: 100;
     width: 345px;
     height: 177px;
@@ -2607,7 +2607,7 @@ li.nav__item:not(:last-child) {
   }
 
   .page__how-to-get-money-img {
-    background-image: url(../images/contractSignMobile.png);
+    background-image: url(./images/contractSignMobile.png);
     width: 100%;
     background-size: cover;
     height: 168px;
