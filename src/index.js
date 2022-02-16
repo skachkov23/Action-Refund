@@ -74,4 +74,3 @@ const ph = document.getElementById('phone')
           ph.value = ph.value + "-";
         }
     })
-
